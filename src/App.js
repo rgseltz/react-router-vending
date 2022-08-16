@@ -1,7 +1,12 @@
 import React from 'react';
 import { Route, BrowserRouter } from 'react-router-dom';
 import Navbar from './Navbar';
+import VendingMachine from './VendingMachine';
+import Chips from './Chips';
+import Drink from './Drink';
+import Candy from './Candy';
 import './App.css';
+import './Navbar.css';
 
 function App() {
   return (
