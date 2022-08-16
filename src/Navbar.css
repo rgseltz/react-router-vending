@@ -1,4 +1,16 @@
 .Navbar {
     background-color: aqua;
     padding: 1.5rem;
+    margin: 1rem;
+}
+
+.Navbar a {
+    color: rgba(255, 255, 255, .8);
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.Navbar a.active {
+    color: white;
+    text-decoration: wavy;
 }
